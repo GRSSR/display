@@ -23,7 +23,7 @@ screen_x, screen_y = screen.getSize()
 local padding_x = (screen_x - message:len())/2 + 1
 if padding_x < 1 then padding_x = 1 end
 
-local padding_y = (screen_y - 1)/2
+local padding_y = (screen_y - 1)/2 + 1
 if padding_y < 1 then padding_y = 1 end
 
 print("printing at scale "..size.."with padding "..padding_x..","..padding_y)
