@@ -1,0 +1,14 @@
+{
+	dependancies = {
+	},
+	files = {
+		{
+			install_location = "/bin/display",
+			repo_location = "display.lua"
+		}
+	},
+	aliases = {
+		display = "/bin/display"
+	},
+	version = "1.0.0"
+}
